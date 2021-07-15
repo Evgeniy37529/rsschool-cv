@@ -1,6 +1,6 @@
 # Evgeniy Chernyavskiy
 
-## My contacts ## :
+## My contacts :
 **Phone** : *+375292547610;*
 **Mail** : *lognard1994@gmail.com;*
 
