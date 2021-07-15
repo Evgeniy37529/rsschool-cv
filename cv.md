@@ -1,8 +1,8 @@
 #Evgeniy Chernyavskiy
 
 ##My contacts:
-**Phone** : *+375292547610*
-**Mail** : *lognard1994@gmail.com*
+**Phone** : *+375292547610;*
+**Mail** : *lognard1994@gmail.com;*
 
 ##About me
 I am 27 years old. I want to change my current place of work.
