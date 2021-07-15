@@ -12,12 +12,12 @@ I have no experience in this field, expect for solving small tasks in JavaScript
 a handful of pages based on layouts.
 
 ## Skills
-* JavaScript 
-* HTML
-* CSS
-* Bootstrap
-* git
-* react (theory)
+* *JavaScript* 
+* *HTML*
+* *CSS*
+* *Bootstrap*
+* *git*
+* *react (theory)*
 
 ## Example code javaScript
 ```javascript
@@ -69,4 +69,13 @@ function slider(){
 }
 };
 ```
+## Work experience
+Trainings from **Glo-academy**, online lectures, adding functionality on page using JavaScript.
 
+## Education 
+I graduated from the Belarusian National Technical University in 2016.
+Faculty of Information Technologies and Robotics.
+FrontEnd - self-education.
+
+# English level
+A2.
