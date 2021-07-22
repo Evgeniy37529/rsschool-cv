@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+.main{
+    max-width: 850px;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+    padding: 10px 14px;
+}
+.sidebar{
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+.header{
+    margin-top: 10px;
+}
+.info , .languages, .social, .hobbies{
+    width: 100%;
+}
+figure{
+    display: flex;
+    align-items: center;
+    font: normal 35px/43px Montserrat;
+    color: #FFFFFF;
+}
+.avatar{
+    border-radius: 50%;
+}
+.info ul{
+    list-style: none;
+}
+.info{
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-right: 18px;
+    margin-left: 18px;
+    
+    
+}
+
+.info-item{
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.info a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font: normal 22px/20px Calibri;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 30px 10px 15px;
+}
+.info-item a img{
+    margin-right: 40px;
+}
+
+.languages, .social, .hobbies{
+    color: #FFFFFF;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-top: 45px;
+    font: normal 22px/20px Calibri;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h3{
+    font-style: Montserrat;
+    font-size: 28px;
+    
+}
+.english{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.dots{
+    margin-left: 10px;
+}
+
+.social ul{
+    list-style: none;
+}
+.social ul a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#fff;
+    font: normal 22px/20px Calibri;
+}
+.social-item{
+    margin-top: 15px;
+}
+
+.instagram{
+    fill: #FFFFFF;
+}
+.hobbie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sport-logo{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.instagram, .linkedin, .vk{
+    fill: #fff;
+    margin-right: 30px;
+}
