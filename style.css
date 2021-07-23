@@ -9,6 +9,7 @@ body{
 }
 
 .main{
+    display: flex;
     max-width: 850px;
     margin: auto;
     background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
@@ -79,8 +80,7 @@ figure{
     padding-bottom: 10px;
 }
 h3{
-    font-style: Montserrat;
-    font-size: 28px;
+    font: normal 28px/32px Montserrat;
     
 }
 .english{
@@ -123,4 +123,45 @@ h3{
 .instagram, .linkedin, .vk{
     fill: #fff;
     margin-right: 30px;
+}
+
+
+.right{
+    width: 100%;
+    background: #FFFFFF;
+    padding-top: 19px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.about{
+    
+    
+    border-radius: 10px;
+    
+}
+.about h3{
+    width: 220px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: #545454;
+    border-radius: 5px;
+    position: relative;
+}
+
+.about h3 span{
+    position: absolute;
+    top: 15px;
+    right: -150px;
+    width: 150px;
+    background: #545454;
+    height: 1px;
+}
+.about p{
+    margin-top: 15px;
+    font: italic normal 22px/20px Calibri;
+    text-align: justify;
+    color: #000000;
 }
