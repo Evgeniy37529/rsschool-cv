@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 850px;
+    margin: auto;
+}
+
+.main{
+    display: flex;
+    max-width: 100%;
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+.sidebar{
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+}
+.header{
+    margin-top: 10px;
+}
+.info , .languages, .social, .hobbies{
+    width: 100%;
+}
+figure{
+    display: flex;
+    align-items: center;
+    font: normal 35px/43px Montserrat;
+    color: #FFFFFF;
+    
+}
+figcaption{
+    margin-left: 10px;
+}
+.avatar{
+    
+    object-fit: cover;
+    border-radius: 50%;
+}
+.info ul{
+    list-style: none;
+}
+.info{
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-right: 18px;
+    margin-left: 18px;
+    
+    
+}
+
+.info-item{
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.info a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font: normal 22px/20px Calibri;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 30px 10px 15px;
+}
+.info-item a img{
+    margin-right: 40px;
+}
+
+.languages, .social, .hobbies{
+    color: #FFFFFF;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-top: 45px;
+    font: normal 22px/20px Calibri;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h3{
+    font: normal 28px/32px Montserrat;
+    
+}
+.english{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.dots{
+    margin-left: 10px;
+}
+
+.social ul{
+    list-style: none;
+}
+.social ul a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#fff;
+    font: normal 22px/20px Calibri;
+}
+.social-item{
+    margin-top: 15px;
+}
+.social-link:hover{
+    color: rgba(231, 104, 0, 0.705);
+}
+
+.instagram{
+    fill: #FFFFFF;
+}
+.instagram:hover, .linkedin:hover, .vk:hover{
+   fill: rgba(231, 104, 0, 0.705);
+}
+
+.hobbie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sport-logo{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.instagram, .linkedin, .vk{
+    fill: #fff;
+    margin-right: 30px;
+}
+
+
+.right{
+    width: 100%;
+    background: #FFFFFF;
+    padding-top: 19px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.about, .skills, .experience, .education{
+    margin-bottom: 20px;
+    
+    
+}
+.about h3, .skills h3, .experience h3, .education h3, .example h3{
+    width: 220px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: #545454;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 15px;
+    wrap: none;
+}
+.about p, .experience p, .education p{
+    font: italic normal 18px/20px Calibri;
+    text-align: justify;
+    color: #000000;
+}
+
+.skills ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills ul li{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    font: normal 15px/25px Montserrat;
+    font-weight: 600;
+    color: #545454;
+}
+.skill-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.link-project{
+    text-decoration: none;
+    font: italic normal 18px/20px Calibri;
+    color: #000
+}
+.footer{
+    max-width: 860px;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.footer a{
+    display: block;
+    text-align: center;
+}
+.link-project:hover{
+    font-weight: 700;
+    color: rgb(255, 29, 13);
+    box-shadow: inset 3px 3px 10px , -3px -3px 10px 3px; 
+}
