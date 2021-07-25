@@ -206,7 +206,7 @@ h3{
     margin-top: 5px;
     border-radius: 10px;
 }
-.footer a{
+.link-courseschool{
     display: block;
     text-align: center;
 }
@@ -214,4 +214,13 @@ h3{
     font-weight: 700;
     color: rgb(255, 29, 13);
     box-shadow: inset 3px 3px 10px , -3px -3px 10px 3px; 
+}
+.link-git{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    color: #fff;
+    font: normal 20px/20px Calibri;
+    
 }
