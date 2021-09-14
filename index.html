@@ -11,36 +11,52 @@
     <title>Document</title>
 </head>
 <body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#social" class="nav-link">Social</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
     <main class="main">
         <aside class="sidebar">
-            <header class="header">
+            <header class="header-sidebar">
                 <figure>
                     <img src="img/avatar.jpg" class="avatar" alt="Photo: avatar" width="135" height="116">
                     <figcaption>Evgeniy Chernyavskiy</figcaption>
                 </figure>
             </header>
-            <div class="info">
-                <div class="info-item">
-                    <a href="#" class="link-mail">
-                        <img src="img/mail.svg" alt="mail">
-                        lognard1994@gmail.com
-                    </a>
-                </div>
-                <div class="info-item">
-                    <a href="#" class="link-phone">
-                        <img src="img/phone.svg" alt="phone">
-                        +375292547610
-                    </a>
-                </div>
-                <div class="info-item">
-                    <a href="#" class="link-mail">
-                        <img src="img/city.svg" alt="city">
-                        Minsk
-                    </a>
-                </div>
-            </div>
+            <section id="contacts" class="contacts">
+                <h2 >Contacts</h2>
+                <ul class="info">
+                    <li class="info-item">
+                        <a href="#" class="link-mail">
+                            <img src="img/mail.svg" alt="mail">
+                            lognard1994@gmail.com
+                        </a>
+                    </li>
+                    <li class="info-item">
+                        <a href="#" class="link-phone">
+                            <img src="img/phone.svg" alt="phone">
+                            +375292547610
+                        </a>
+                    </li>
+                    <li class="info-item">
+                        <a href="#" class="link-mail">
+                            <img src="img/city.svg" alt="city">
+                            Minsk
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            
             <section class="languages">
-                <h3>Languages</h3>
+                <h2>Languages</h2>
                 <div class="english">
                     English
                     <div class="dots">
@@ -52,8 +68,8 @@
                     </div>
                 </div>
             </section>
-            <section class="social">
-                <h3>Social</h3>
+            <section id="social" class="social">
+                <h2>Social</h2>
                 <ul>
                     <li class="social-item">
                         <a href="https://vk.com/id256079828" class="social-link">
@@ -84,25 +100,25 @@
                 </ul>
             </section>
             <section class="hobbies">
-                <h3>Hobbies</h3>
+                <h2>Hobbies</h2>
                 <div class="sport-logo">
                     <span class="hobbie">
                         <img src="img/Reading.svg" class="inst-logo" width="60" height="60" alt="Reading">
-                        Reading
+                        <h4>Reading</h4>
                     </span>
                     <span class="hobbie">
                         <img src="img/dance.svg" class="inst-logo" width="60" height="60" alt="dance">
-                        Dance
+                        <h4>Dance</h4>
                     </span>
                     <span class="hobbie">
                         <img src="img/sport.svg" class="inst-logo" width="60" height="60" alt="sport">
-                        Sport
+                        <h4>Sport</h4>
                     </span>
                 </div>
             </section>
         </aside>
         <div class="right">
-            <section class="about">
+            <section id="about" class="about">
                 <h3>About me</h3>
                 <p>I am 27 years old. I want to change my current place of work.
                     I decided to try myself in the IT field.
@@ -111,7 +127,7 @@
                     a handful of pages based on layouts.
                 </p>
             </section>
-            <section class="skills">
+            <section id="skills" class="skills">
                 <h3>Skills</h3>
                 <ul>
                     <li class="skill-item">
@@ -140,7 +156,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="education">
+            <section id="education" class="education">
                 <h3>education</h3>
                 <p>
                     I graduated from the Belarusian National Technical University in 2016.
@@ -148,7 +164,7 @@
                     FrontEnd - self-education.
                 </p>
             </section>
-            <section class="experience">
+            <section id="experience" class="experience">
                 <h3>Experience</h3>
                 <p>
                     Trainings from Glo-academy, online lectures, adding functionality on page using JavaScript.
@@ -156,7 +172,7 @@
             </section>
             <section class="example">
                 <h3>Example code</h3>
-                <a href="https://github.com/Evgeniy37529/WillBerries" class="link-project">https://github.com/Evgeniy37529/WillBerries</a>
+                <a href="https://github.com/Evgeniy37529/WillBerries" class="link-project">Click for example</a>
             </section>
         </div>
     </main>
