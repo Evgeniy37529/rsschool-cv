@@ -3,13 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     max-width: 850px;
     margin: auto;
+    
 }
 
-.main{
+h2{
+    font: normal 28px/32px Montserrat;
+}
+h3{
+    font: normal 26px/32px Montserrat;
+}
+h4{
+    font: normal 22px/20px Calibri;
+}
+
+.header{
+    max-width: 100%;
+    margin-bottom: 5px;
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+.nav-list{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+.nav-link:hover{
+    color: rgba(231, 104, 0, 0.705);
+}
+.main {
     display: flex;
     max-width: 100%;
     background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
@@ -26,10 +54,10 @@ body{
     padding-left: 18px;
     padding-bottom: 10px;
 }
-.header{
+.header-sidebar{
     margin-top: 10px;
 }
-.info , .languages, .social, .hobbies{
+.contacts, .info , .languages, .social, .hobbies{
     width: 100%;
 }
 figure{
@@ -47,16 +75,11 @@ figcaption{
     object-fit: cover;
     border-radius: 50%;
 }
-.info ul{
-    list-style: none;
-}
 .info{
+    list-style: none;
     border-radius: 10px;
     margin-top: 7px;
     margin-right: 18px;
-    margin-left: 18px;
-    
-    
 }
 
 .info-item{
@@ -64,7 +87,7 @@ figcaption{
     border-radius: 10px;
     margin-top: 15px;
 }
-.info a{
+.info a, .nav-link{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -72,25 +95,21 @@ figcaption{
     color: #FFFFFF;
     text-align: center;
     padding: 10px 30px 10px 15px;
+    cursor: pointer;
 }
 .info-item a img{
     margin-right: 40px;
 }
 
-.languages, .social, .hobbies{
+.contacts, .languages, .social, .hobbies{
     color: #FFFFFF;
     background: rgba(196, 196, 196, 0.35);
     border-radius: 10px;
     margin-top: 45px;
     font: normal 22px/20px Calibri;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
-h3{
-    font: normal 28px/32px Montserrat;
-    
-}
+
 .english{
     margin-top: 15px;
     display: flex;
@@ -129,6 +148,8 @@ h3{
     flex-direction: column;
     align-items: center;
 }
+
+
 .sport-logo{
     margin-top: 15px;
     display: flex;
@@ -194,6 +215,10 @@ h3{
     height: 50px;
     object-fit: cover;
 }
+
+.example{
+    padding-bottom: 7px;
+}
 .link-project{
     text-decoration: none;
     font: italic normal 18px/20px Calibri;
@@ -227,4 +252,88 @@ h3{
     padding: 15px;
     color: #fff;
     font: normal 20px/20px Calibri;
+
 }
+
+@media screen and (min-width: 420px) and (max-width: 850px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font: normal 35px/43px Montserrat;
+        color: #FFFFFF;
+    }
+    figcaption{
+        text-align: center;
+    }
+
+    .right{
+        margin-top: 15px;
+        margin-left: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 750px) {
+    .nav-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font: normal 35px/43px Montserrat;
+        color: #FFFFFF;
+    }
+    figcaption{
+        text-align: center;
+    }
+
+    .sidebar{
+        width: 100%;
+    }
+
+    .right{
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    .info-item a{
+        font-size: 18px;
+    }
+    .info-item a img {
+        margin-right: 10px;
+    }
+
+    .sport-logo{
+        flex-direction: column;
+    }
+    .hobbie{
+        margin-bottom: 15px;
+    }
+
+    .hobbie:last-child{
+        margin-bottom: 0px;
+    }
+  }
+
+
+}
+
